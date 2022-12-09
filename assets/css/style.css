@@ -1,0 +1,80 @@
+/* Global style */
+
+:root {
+    background: radial-gradient(38.42% 38.42% at 70.6% 96.99%, #8724C9 0%, #160055 100%);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    font-family: Lato;
+}
+
+/* Home page style */
+
+.logo-container {
+    position: absolute;
+    top: 110px;
+}
+
+.logo {
+    display: flex;
+	justify-content: center;
+}
+
+/* Styling Background image of Home page */
+
+.game-area {
+    margin: 80px;
+ }
+
+ .h1-container {
+    display: flex;
+	align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 46px;
+    margin: 0px;
+}
+
+header.logo-container p {
+    color: #00E3BB ;
+    font-size: 25px;
+}
+
+.start-container {
+    display: flex;
+	justify-content: center;
+    flex-direction: column;
+}
+
+header.logo-container input {
+    cursor:pointer;
+    background-color: #ffff;
+    border: 2px solid #ffff ;
+    padding: 8px 90px;
+    color: #5200FF ;
+    border-radius: 35px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+header.logo-container input:hover {
+    background-color: #8724C9;
+    border: 2px solid #ffff ;
+    padding: 8px 90px;
+    color: #ffff ;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 25px ;
+}
